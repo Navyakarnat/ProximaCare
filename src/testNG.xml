@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+<parameter name="browserName" value="chrome"></parameter>
+<parameter name="URL" value="http://10.67.89.41/Automation/HMS/LoginPage.aspx"></parameter>
+  <test name="Login" >
+    <classes>
+       <class name="business.NewTest" />
+    </classes>
+  </test>
+</suite>

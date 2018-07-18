@@ -1,0 +1,4 @@
+2018-07-18 12:37:21,668  INFO NewTest.java [main] NewTest:36 - Opening Proxima Application in chrome
+2018-07-18 12:37:21,824  INFO NewTest.java [main] NewTest:54 - Entering User Name
+2018-07-18 12:37:21,930  INFO NewTest.java [main] NewTest:56 - Entering Password
+2018-07-18 12:37:22,034  INFO NewTest.java [main] NewTest:58 - Logged into the Application

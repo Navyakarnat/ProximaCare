@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="333" started-at="2018-07-18T02:41:43Z" finished-at="2018-07-18T02:41:43Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="333" started-at="2018-07-18T02:41:43Z" finished-at="2018-07-18T02:41:43Z">
+      <class name="business.NewTest">
+        <test-method status="PASS" signature="SetUp(java.lang.String, java.lang.String)[pri:0, instance:business.NewTest@77a57272]" name="SetUp" is-config="true" duration-ms="7206" started-at="2018-07-18T02:41:36Z" finished-at="2018-07-18T02:41:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://10.67.89.41/Automation/HMS/LoginPage.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:business.NewTest@77a57272]" name="Login" duration-ms="308" started-at="2018-07-18T02:41:43Z" data-provider="getData" finished-at="2018-07-18T02:41:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[priya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:business.NewTest@77a57272]" name="tearDown" is-config="true" duration-ms="2316" started-at="2018-07-18T02:41:43Z" finished-at="2018-07-18T02:41:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- business.NewTest -->
+    </test> <!-- Login -->
+  </suite> <!-- Suite1 -->
+</testng-results>
