@@ -7,10 +7,9 @@
     <classes>
       <class name="business.NewTest">
         <methods>
-          <include name="dashBoardTest"/>
+          <include name="SetUp"/>
           <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="Login" invocation-numbers="0"/>
+          <include name="Login"/>
         </methods>
       </class> <!-- business.NewTest -->
     </classes>
